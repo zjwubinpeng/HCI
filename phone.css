@@ -1,0 +1,64 @@
+div.title
+{
+font-size: 35px;
+color: blue;
+height: 50px;
+margin: 20px;
+}
+.top
+{
+	background: gray;
+    width: 130px; 
+    height: 30px;
+    color:white;
+}
+#page1
+{width: 400px;
+height:60px;}
+.number
+{
+	width:100px;
+	height: 80px;
+	margin: 10px;
+	font-size: 35px;
+}
+.word
+{
+	width:164px;
+	height: 80px;
+	margin: 10px;
+	font-size: 35px;
+}
+.names
+{
+	widows: 150px;
+	height:40px;
+	margin:  5px;
+	font-size: 20px;
+}
+
+p
+{
+	font-size: 20px;
+}
+.hhh
+{
+	width: 350px;
+	height: 25px;
+	font-size: 18px;
+
+}
+#left1
+{
+	width:160px;
+	height: 40px;
+	margin: 10px;
+	font-size: 20px;
+}
+#right1
+{
+	width:84px;
+	height: 40px;
+	margin: 10px;
+	font-size: 20px;
+}
