@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dialer</title>
+	<link id="pagestyle"rel="stylesheet" href="phone.css">
+
+	<script type="text/javascript">
+		function swapstylesheet(sheet)
+		{
+			document.getElementById('pagestyle').setAttribute('href',sheet);
+		}
+	</script>
+
+</head>
+<body>
+		<div>
+	<button class="first" onclick="swapstylesheet('phone.css')">Small Font Page</button>
+	<button class="first" onclick="swapstylesheet('phone2.css')">Large Font Page
+</div>
+<div id="tabs" role="main" aria-live="polite">
+	<button class="top" id="dialer" accesskey="h">Dialer</button>
+	<button class="top" id="list" accesskey="j">Contact List</button>
+	<button class="top" id="add" accesskey="k">Add Contact</button>
+	<button class="top" id="help" accesskey="l">Help</button>
+</div>
+<main>
+
+
+<div id="content">
+	<div id="content_dialer">
+		<div class="title" id="1" role="banner">Dialer</div>
+		<form>
+			<label for="dialer number"></label>
+			<input id="number_input">
+		</form>
+        <div id="dialer_pad" role="contentinfo">
+			<div>
+				<button id="dialer1" accesskey="q">1</button>
+				<button id="dialer2" accesskey="w">2</button>
+				<button id="dialer3" accesskey="r">3</button>
+			</div>
+			<div>
+				<button id="dialer4" accesskey="a">4</button>
+				<button id="dialer5" accesskey="s">5</button>
+				<button id="dialer6" accesskey="v">6</button>
+			</div>
+			<div>
+				<button id="dialer7" accesskey="z">7</button>
+				<button id="dialer8" accesskey="x">8</button>
+				<button id="dialer9" accesskey="c">9</button>
+			</div>
+			<div>
+				<button id="dialer*" accesskey="b">*</button>
+				<button id="dialer0" accesskey="n">0</button>
+				<button id="dialer#" accesskey="m">#</button>
+			</div>
+		</div>
+		<div id="dialer_controls" role="navigation">
+			<button id="button_dial"accesskey="o">Dial</button>
+			<button id="button_dialer_clear"accesskey="p">Clear</button>
+		</div>
+	</div>
+	<div id="content_list">
+		<div class="title" id="2" role="banner">Contact List</div>
+		<table  border="1">
+			<tr>
+				<th class="tableHead">
+				Name
+				</th>
+				<th class="tableHead">
+				Image
+				</th>
+				<th class="tableHead">
+				Phone-Number
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                Ana Smith
+			    </th>
+			    <th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/14377101030002.jpg" height=80>
+			    </th>
+			    <th class="tableCell">
+				111-111-1111
+			    </th>
+			</tr>
+                <th class="tableCell">
+                Bob Frost
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/14377101030003.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				222-222-2222
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                Candy Green
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/14377101030004.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				333-333-3333
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                Eric Jones
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/14377101090001.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				444-444-4444
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                Frankin Williams
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/143771011300013.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				555-555-5555
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                John Taylor
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/14377101230006.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				666-666-6666
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                Mary Brown
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/143771012300013.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				777-777-7777
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                Sam Evans
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/14377101280002.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				888-888-8888
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                Zach Davies
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/14377101320007.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				999-999-9999
+				</th>
+			</tr>
+			<tr>
+				<th class="tableCell">
+                Yanchen Zhou
+				</th>
+				<th class="tableCell">
+				<img src="https://img.116s.com/2015-07/24/14377101120006.jpg" height=80>
+				</th>
+				<th class="tableCell">
+				000-000-0000
+				</th>
+			</tr>
+		</table>
+	</div>
+    <div id="content_add">
+		<div class="title" id="3" role="banner">Add Contact</div>
+		<p>Name</p>
+
+
+		<form>
+			<label for="Name"></label>
+			<input class="hhh" id="name" placeholder="Jane Smith">
+		</form>
+		<p>Phone Number</p>
+		<form>
+			<label for="phone_number"></label>
+			<input class="hhh" id="phone_number" placeholder="123-456-7890">
+		</form>
+		<p>Email Address</p>
+		<form>
+			<label for="email"></label>
+			<input class="hhh" id="email" placeholder="Jane.Smith@colorado.edu">
+		</form>
+
+		<div>
+			<button id="left1">Add Contact</button>
+			<button id="right1">Clear</button>
+		</div>
+    </div>
+    </main>
+    <nav>
+    <div id="content_help">
+		<div class="title" id="4" role="banner">Help</div>
+	
+	<p>below is some keyboard shortcut to dial or switch between tabs</p>
+	<table class="helpTable" border="1">
+		<tr>
+			<th>fuction</th>
+			<th>shortcut key</th>
+		</tr>
+		<tr>
+			<th>switch to tab "dialer"</th>
+			<th>alt + "h"</th>
+		</tr>
+		<tr>
+			<th>switch to tab "contact list"</th>
+			<th>alt + "j"</th>
+		</tr>
+		<tr>
+			<th>switch to tab "add contact"</th>
+			<th>alt + "k"</th>
+		</tr>
+		<tr>
+			<th>switch to tab "help"</th>
+			<th>alt + "l"</th>
+		</tr>
+		<tr>
+			<th>dial number "1"</th>
+			<th>alt + "q"</th>
+		</tr>
+		<tr>
+			<th>dial number "2"</th>
+			<th>alt + "w"</th>
+		</tr>
+		<tr>
+			<th>dial number "3"</th>
+			<th>alt + "r"</th>
+		</tr>
+		<tr>
+			<th>dial number "4"</th>
+			<th>alt + "a"</th>
+		</tr>
+		<tr>
+			<th>dial number "5"</th>
+			<th>alt + "s"</th>
+		</tr>
+		<tr>
+			<th>dial number "6"</th>
+			<th>alt + "v"</th>
+		</tr>
+		<tr>
+			<th>dial number "7"</th>
+			<th>alt + "z"</th>
+		</tr>
+		<tr>
+			<th>dial number "8"</th>
+			<th>alt + "x"</th>
+		</tr>
+		<tr>
+			<th>dial number "9"</th>
+			<th>alt + "c"</th>
+		</tr>
+		<tr>
+			<th>dial number "*"</th>
+			<th>alt + "b"</th>
+		</tr>
+		<tr>
+			<th>dial number "0"</th>
+			<th>alt + "n"</th>
+		</tr>
+		<tr>
+			<th>dial number "#"</th>
+			<th>alt + "m"</th>
+		</tr>
+		<tr>
+			<th>click button "dial"</th>
+			<th>alt + "o"</th>
+		</tr>
+		<tr>
+			<th>click button "clear"</th>
+			<th>alt + "p"</th>
+		</tr>
+	</table>
+	</div>
+    </nav>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="phone.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+.first
+{
+	background: orange;
+    width: 180px; 
+    height: 40px;
+    color:white;
+    font-size: 21px;
+}
+
+
+div.title
+{
+font-size: 35px;
+font-family: Heltevica;
+color: orange;
+height: 50px;
+margin: 20px;
+}
+.top
+{
+	background: gray;
+    width: 180px; 
+    height: 40px;
+    color:white;
+    font-size: 21px;
+}
+
+#number_input
+{width: 375px;
+height:60px;
+text-align: right;
+font-size: 35px;
+}
+.tableHead
+{
+	font-size: 20px;
+	height: 50px;
+}
+.tableCell
+{
+	font-size: 20px;
+}
+#dialer_pad button
+{
+	width:100px;
+	height: 80px;
+	margin: 10px;
+	font-size: 35px;
+}
+#dialer_controls button
+{
+	width:164px;
+	height: 80px;
+	margin: 10px;
+	font-size: 35px;
+}
+
+
+p
+{
+	font-size: 20px;
+}
+.hhh
+{
+	width: 350px;
+	height: 25px;
+	font-size: 18px;
+
+}
+.helpTable
+{
+	font-size: 20px;
+}
+#left1
+{
+    width: 120px; 
+    height: 30px;
+    font-size: 16px;
+}
+
+#right1
+{
+    width: 80px; 
+    height: 30px;
+    font-size: 16px;
+}
