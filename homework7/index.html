@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Gesture Demo
+		</title>
+		<link rel="stylesheet" href="gestures.css" type="text/css">
+	</head>
+	<body>
+		<h2 id="instructionsHeader">Instructions</h2>
+		<p id="instructions">
+			<ul>This is an small application about mouse movement</ul>
+		<ul>When your mouse click down and up, it will show the state blow the box.</ul>
+	    <ul>There are 3 operation you could do in the region
+	    <ul><li>1.Swipe left</li>  <li>2.Swipe right</li> <li>3.Double click.</li></ul></ul>
+	    <ul>Text will display in the gestureArea when you do such gesture</ul></p>
+		
+		<div id="gestureArea">
+			<div id="moveleft">Swipe Left</div>
+			<div id="moveright">Swipe Right</div>
+			<div id="doubleclick">Double Click</div>
+
+		</div>
+		<div id="gestureResult">
+			<div id="mousedown">Mouse Down</div>
+			<div id="mouseup">Mouse Up</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="gestures.js" type="text/javascript"></script>
+	</body>
+</html>
